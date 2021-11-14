@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <title>ELSA ENGLISH</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+    </header>
+    <section class="banner">
+        <div class="contentWrap">
+            <div class="content">
+                <h2>
+                    app luyện nói <br>& giao tiếp tiếng anh thời 4.0
+                </h2>
+                <p>
+                    Với ElSA Speak - Ai Cũng có thể nói tiếng anh hay!
+                </p>
+                <input id= "registerNow" type="button" value="Đăng ký ngay" />
+            </div>
+        </div>
+
+    </section>
+    <section class="register" id="register">
+        <div class="component">
+            <form action="" method="get" id="form">
+                <div class="formHeader" >
+                    <h3>cùng ứng dụng elsa nói tiếng anh "thả ga"</h3>
+                </div>
+                <div class="form-group first">
+                    <div class="userLogo">
+                        <img src="./img/user.png" alt="" id="name">
+                        <label for="name">Họ tên *</label>
+                    </div>
+                    <input type="text" id="nameInput">
+                    <span class="form-message"></span>
+                    
+                </div>
+                <div class="form-group">
+                    <div class="phoneLogo">
+                        <img src="./img/phone.png" alt="" id="phone">
+                        <label for="phone">Số điện thoại *</label>
+                    </div>
+                    <input type="text" id="phoneInput">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
+                    <div class="mail">
+                        <img src="./img/mail.png" alt="" id="mail">
+                        <label for="mail">Email *</label>
+                    </div>
+                    <input type="text" id="mailInput">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
+                    <div class="package">
+                        <div class="item">
+                            <input type="radio" id="oneYear" value="989.000" name="package">
+                            <label for="oneYear">Gói học 1 năm</label>
+                            <div class="packagePrice"></div>
+                            </div>
+                        <div class="item">
+                            <input type="radio"  id="lifeTime" value="1.995.000" name="package">
+                            <label for="lifeTime">Gói trọn đời</label>
+                        </div>
+                    </div>
+                    <span class="form-message"></span>
+                    <span class="priceMessage"></span>
+                </div>
+                <div class="form-group last">
+                    <input type="submit" value="GỬI ĐĂNG KÝ" class="button">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="advertise">
+        <div class="img">
+            <img src="./img/Screen Shot 2020-08-24 at 15.17 1 (1).png" alt="">
+        </div>
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>
